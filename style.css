@@ -8,6 +8,9 @@ body {
   min-height: 100%;
   min-width: 100%;
   background: linear-gradient(pink, violet);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
@@ -34,4 +37,37 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: 0.8px solid black;
+  border-radius: 50%;
+  margin-left: 1em;
+  cursor: pointer;
+}
+p {
+  display: flex;
+}
+div {
+  margin: 1em;
+}
+div#datesandpriority {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div#taskdesc {
+  display: flex;
+  gap: 0.5em;
 }
